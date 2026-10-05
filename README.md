@@ -50,10 +50,10 @@ DRIVE_FOLDER_ID = "your_drive_folder_id"
 ```
 
 ### 5. Set camera source
-In `config.py`:
-```python
-CAMERA_SOURCE = "/path/to/video.mp4"   # or 0 for webcam, or rtsp://... for IP camera
-```
+Copy .env.example to .env and fill in:
+CAMERA_SOURCE=rtsp://user:pass@your-ip/stream
+TELEGRAM_TOKEN=your_telegram_bot_token
+TELEGRAM_CHAT_ID=your_chat_id
 
 ### 6. Run
 ```bash
