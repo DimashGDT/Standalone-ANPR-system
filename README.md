@@ -50,11 +50,12 @@ DRIVE_FOLDER_ID = "your_drive_folder_id"
 ```
 
 ### 5. Set camera source
-'''Copy .env.example to .env and fill in:
+```
+Copy .env.example to .env and fill in:
 CAMERA_SOURCE=rtsp://user:pass@your-ip/stream
 TELEGRAM_TOKEN=your_telegram_bot_token
 TELEGRAM_CHAT_ID=your_chat_id
-'''
+```
 ### 6. Run
 ```bash
 python main.py
